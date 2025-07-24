@@ -1,0 +1,22 @@
+body
+{
+font-family: sans-serif;
+font-size:medium;
+font-style:normal;
+
+}
+#h1{
+text-align: right;
+
+}
+#h2{
+text-align: center;
+
+}
+#h3{
+text-align: right;
+
+}
+p{
+    text-align: left;
+}
