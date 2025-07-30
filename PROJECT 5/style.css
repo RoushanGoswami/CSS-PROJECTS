@@ -1,0 +1,75 @@
+
+.A{
+display: flex;
+justify-content: center;
+padding:25px;
+}
+.B{
+display: flex;
+justify-content: center;
+padding:25px;
+}
+.C{
+display: flex;
+justify-content: center;
+padding:25px;
+}
+.D{
+display: flex;
+justify-content: center;
+
+}
+.a1{
+height:50px;
+width:150px;
+border-radius:20px;
+background: linear-gradient(to left,skyblue,lightgreen);
+}
+.a2{
+height:50px;
+width:150px;
+border-radius:20px;
+background: linear-gradient(to left,skyblue,lightgreen);
+}
+.a3{
+height:50px;
+width:150px;
+border-radius:20px;
+background: linear-gradient(to left,skyblue,lightgreen);
+}
+.b1{
+height:50px;
+width:150px;
+border-radius:20px;
+background: linear-gradient(to left,skyblue,lightgreen);
+}
+.b2{
+height:50px;
+width:150px;
+border-radius:20px;
+background: linear-gradient(to left,skyblue,lightgreen);
+}
+.b3{
+height:50px;
+width:150px;
+border-radius:20px;
+background: linear-gradient(to left,skyblue,lightgreen);
+}
+.c1{
+height:50px;
+width:150px;
+border-radius:20px;
+background: linear-gradient(to left,skyblue,lightgreen);
+}
+.c2{
+height:50px;
+width:150px;
+border-radius:20px;
+background: linear-gradient(to left,skyblue,lightgreen);
+}
+.c3{
+height:50px;
+width:150px;
+border-radius:20px;
+background: linear-gradient(to left,skyblue,lightgreen);
+}
