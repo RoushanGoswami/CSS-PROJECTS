@@ -1,0 +1,60 @@
+.main {
+    height: 100vh;
+    width: 100%;
+}
+
+.p1 {
+    background-image: url('https://wallpapers.com/images/hd/travel-laptop-0m6r2w9ywrwtb81n.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    color: white;
+    font-size: xx-large;
+}
+
+.n1 {
+    background-color: white;
+    height: 10%;
+    width: 100%;
+    color: black;
+    font-size: larger;
+    font-weight: bold;
+    align-items: center;
+    font-family: sans-serif;
+
+}
+
+.p2 {
+    background-image: url('https://wallpapers.com/images/hd/travel-background-o06cd4lfwzkm7svt.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+}
+
+.n2 {
+    background-color: black;
+    color: aliceblue;
+    font-family: serif;
+    font-size: xx-large;
+    font-weight: bold;
+    height: 10%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.p3 {
+    background-image: url('https://www.pixelstalk.net/wp-content/uploads/images6/Travel-Wallpaper-HD-Free-download.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+}
