@@ -1,0 +1,30 @@
+.main {}
+
+.head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: lightgray;
+}
+
+i1 {}
+
+.h {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.box1 {
+    height: 530px;
+    width: 350px;
+    border-radius: 10px;
+    border: 2px solid black;
+
+}
+
+.r1 {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
