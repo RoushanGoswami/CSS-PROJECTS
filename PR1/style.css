@@ -4,7 +4,8 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: lightgray;
+    background-color: rgba(211, 211, 211, 0.521);
+    padding: 50px;
 }
 
 i1 {}
@@ -24,6 +25,12 @@ i1 {}
 }
 
 .r1 {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.r2 {
     margin-top: 20px;
     display: flex;
     justify-content: space-between;
