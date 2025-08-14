@@ -1,0 +1,103 @@
+body {
+
+    height: 100vh;
+    width: 100%;
+
+}
+
+.main {
+
+    height: 50%;
+    width: 100%;
+    background-color: #605F63;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 50px;
+    color: white;
+
+}
+
+.content {
+
+    display: flex;
+    height: 60%;
+    width: 100%;
+    background-color: #F0F133;
+}
+
+.box-1 {
+    border: 2px solid black;
+    height: 100px;
+    width: 100px;
+    background-color: #FEE4C3;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin: 1px;
+    color: black;
+}
+
+.c1 {
+
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.c2 {
+
+    display: flex;
+    flex-wrap: wrap-reverse;
+}
+
+.c3 {
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+}
+
+.c4 {
+
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    justify-content: start;
+
+}
+
+.c5 {
+
+    display: flex;
+    flex-direction: column-reverse;
+    flex-wrap: wrap;
+    justify-content: start;
+
+}
+
+.c6 {
+
+    display: flex;
+    flex-wrap: wrap-reverse;
+    justify-content: start;
+
+}
+
+.c7 {
+
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: start;
+
+}
+
+.c8 {
+
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: start;
+
+
+}
