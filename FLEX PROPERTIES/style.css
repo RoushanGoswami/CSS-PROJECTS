@@ -22,7 +22,7 @@ body {
 .content {
 
     display: flex;
-    height: 60%;
+    height: 70%;
     width: 100%;
     background-color: #F0F133;
 }
@@ -97,6 +97,24 @@ body {
 
     display: flex;
     flex-flow: column wrap;
+    justify-content: start;
+
+
+}
+
+.c9 {
+
+    display: flex;
+    flex-flow: column wrap-reverse;
+    justify-content: start;
+
+
+}
+
+.c10 {
+
+    display: flex;
+    flex-flow: column nowrap;
     justify-content: start;
 
 
