@@ -1,0 +1,121 @@
+body {
+
+    height: 100vh;
+    width: 100%;
+    background-color: black;
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Amazon Ember', 'Amazon Arabic Ember', Arial, sans-serif;
+
+
+}
+
+.section-1 .content-1 {
+
+    padding: 90px;
+}
+
+.content-2 {
+    padding: 50px;
+    padding-top: 100px;
+    height: 228px;
+    width: 589px;
+
+}
+
+.content-3 {
+    padding: 55px;
+    padding-top: 100px;
+    height: 411.94px;
+    width: 975px;
+
+}
+
+.rent-button {
+    margin-top: 30px;
+    height: 62px;
+    width: 128.83px;
+    font-size: 20px;
+    background-color: white;
+    border-radius: 10px;
+    border: 5px solid black;
+    /* box-shadow: 0 5px 5px rgb(26, 25, 25); */
+}
+
+.login-button {
+    margin-top: 30px;
+    height: 62px;
+    width: 228.55px;
+    font-size: 20px;
+    background-color: white;
+
+    border-radius: 10px;
+    border: 5px solid black;
+    text-decoration: none;
+    transition: 0.09s;
+    /* box-shadow: 0 5px 5px rgb(26, 25, 25); */
+}
+
+button.login-button:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+    color: rgb(121, 116, 116);
+    background-color: whitesmoke;
+}
+
+button.rent-button:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+    color: rgb(121, 116, 116);
+    background-color: whitesmoke;
+}
+
+
+.section-1 {
+    background-image: url('https://m.media-amazon.com/images/G/31/AmazonVideo/2019/MLP.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    height: 100%;
+    width: 100%;
+    background-size: contain;
+    color: white;
+}
+
+.section-2 {
+    background-image: url('https://m.media-amazon.com/images/G/31/AmazonVideo/2021/X-site/MLP/TVOD/TVOD_MLP_Right.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    height: 100%;
+    width: 100%;
+    background-size: contain;
+    color: white;
+    margin-top: -70px;
+}
+
+.section-3 {
+    height: 100%;
+    width: 100%;
+    color: white;
+    background-color: #00050D;
+    margin-top: -70px;
+
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #222222;
+    text-align: center;
+    height: 136px;
+    width: 100%;
+    padding: 10px;
+}
+
+footer img {
+    align-self: center;
+    height: 32px;
+    width: 104.97px;
+}
