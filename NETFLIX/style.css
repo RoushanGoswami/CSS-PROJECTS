@@ -1,0 +1,32 @@
+/* background-image: url('https://m.media-amazon.com/images/G/31/AmazonVideo/2019/MLP.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    height: 100%;
+    width: 100%;
+    background-size: contain;
+    color: white; */
+body {
+    height: 100vh;
+    width: 100%;
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    background-color: #000000;
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+}
+
+.section-1 {
+    position: relative;
+}
+
+.content-1 {
+    height: 100%;
+    width: 100%;
+    align-content: center;
+    color: white;
+    text-align: center;
+    position: absolute;
+    top: 500px;
+
+}
