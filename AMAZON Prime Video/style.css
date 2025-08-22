@@ -6,8 +6,82 @@ body {
     padding: 0px;
     margin: 0px;
     font-family: 'Amazon Ember', 'Amazon Arabic Ember', Arial, sans-serif;
+    color: white;
+
+}
+
+.nav-bar {
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    padding-left: 40px;
+}
+
+.nav {
+    width: 85%;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(8, 13, 22, 0.5);
+    backdrop-filter: blur(10px);
+    padding: 0px 40px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    position: fixed;
+
+}
+
+.left-options {
+    display: flex;
+    gap: 20px;
+}
+
+.nav h3 {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.right-options {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.language-button {
+    height: 40px;
+    width: 100px;
+    font-size: 16px;
+    font-weight: 600;
+    border: none;
+    border-radius: 8px;
+}
+
+.dropdown {
+    position: relative;
+    transition: visibility 0.5s;
+}
+
+.dropdown:hover .languages {
+    visibility: visible;
+}
 
 
+.languages {
+    visibility: hidden;
+    right: 0;
+    top: 50px;
+    padding: 20px 40px;
+    border-radius: 10px;
+    display: grid;
+    grid-template-columns: repeat(4, 100px);
+    gap: 10px;
+    background-color: rgb(27, 33, 46);
+    backdrop-filter: blur(10px);
+    position: absolute;
+}
+
+.languages a {
+    text-decoration: none;
+    color: white;
 }
 
 .section-1 .content-1 {
@@ -39,7 +113,7 @@ body {
     background-color: white;
     border-radius: 10px;
     border: 5px solid black;
-    /* box-shadow: 0 5px 5px rgb(26, 25, 25); */
+
 }
 
 .login-button {
@@ -53,7 +127,7 @@ body {
     border: 5px solid black;
     text-decoration: none;
     transition: 0.09s;
-    /* box-shadow: 0 5px 5px rgb(26, 25, 25); */
+
 }
 
 button.login-button:hover {
@@ -161,5 +235,5 @@ footer a {
 }
 
 .foot-last {
-    color:#8197A4 ;
+    color: #8197A4;
 }
