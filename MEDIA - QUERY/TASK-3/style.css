@@ -1,0 +1,46 @@
+body {
+    /* 
+    height: 100vh;
+    width: 100%; */
+    padding: 20px;
+
+}
+
+.boxes {
+
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+
+
+}
+
+.boxes-1 {
+    display: flex;
+    gap: 20px;
+
+}
+
+.r1,
+.r2 {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.box-1 {
+
+    height: 50px;
+    width: 350px;
+    border: 1px solid black;
+    align-content: center;
+    text-align: center;
+    box-shadow: 0 1px 5px black;
+}
+
+img {
+    height: 250px;
+    width: 350px;
+}
