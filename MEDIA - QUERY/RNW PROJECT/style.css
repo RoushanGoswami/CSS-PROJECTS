@@ -2,6 +2,7 @@
     padding: 0px;
     margin: 0px;
 
+    box-sizing: border-box;
 }
 
 body {
@@ -140,7 +141,7 @@ marquee {
 }
 
 .man-a {
-    height: 550px;
+    height: 580px;
     width: 375px;
     background-image: url('ASSETS/IMG/man1.png');
     background-repeat: no-repeat;
@@ -151,7 +152,7 @@ marquee {
 }
 
 .man-b {
-    height: 550px;
+    height: 565px;
     width: 375px;
     background-image: url('ASSETS/IMG/man2.png');
     background-repeat: no-repeat;
@@ -162,7 +163,7 @@ marquee {
 }
 
 .man-c {
-    height: 550px;
+    height: 555px;
     width: 375px;
     background-image: url('ASSETS/IMG/man3.png');
     background-repeat: no-repeat;
@@ -173,7 +174,7 @@ marquee {
 }
 
 .man-d {
-    height: 550px;
+    height: 590px;
     width: 375px;
     background-image: url('ASSETS/IMG/man4.jfif');
     background-repeat: no-repeat;
@@ -186,14 +187,15 @@ marquee {
 .content {
 
     color: white;
-    height: 210px;
-    width: 365px;
+    margin-top: 50px;
+    height: 170px;
+    width: 375px;
     position: absolute;
     top: 275px;
-    padding: 5px;
+    /* padding: 5px; */
     background: linear-gradient(to bottom, rgb(16, 65, 94, 0.5));
     text-align: center;
-    align-content: center;
+    align-content: end;
 
 
 }
@@ -201,9 +203,44 @@ marquee {
 .mans {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
+
 }
 
 .s1 {
     padding-top: -10px;
 
+}
+
+.tlr {
+    height: 420.36px;
+    width: 570px;
+    display: flex;
+    gap: 50px;
+    margin-top: 20px;
+}
+
+.m1 {
+    display: flex;
+    gap: 20px;
+}
+
+.sec-5 {
+    margin-top: 100px;
+    box-sizing: border-box;
+    height: 100%;
+    width: 100%;
+    align-content: center;
+    align-items: center;
+    padding-left: 20%;
+    padding-right: 20%;
+
+}
+
+.sec-5 .sec5-con {
+    margin-top: -40%;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-content: center;
+    /* gap: 100px; */
 }
