@@ -541,8 +541,9 @@ marquee {
 .up-s10 {
     display: flex;
     gap: 20px;
-
     justify-content: center;
+
+
 }
 
 .name {
@@ -557,5 +558,57 @@ marquee {
 .sec-10 h1 {
     font-size: 38px;
     padding-bottom: 30px;
+
+}
+
+.footer {
+    height: 60%;
+    width: 100%;
+    box-sizing: border-box;
+    background-color: rgb(33, 37, 41);
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+    gap: 100px;
+
+
+}
+
+.f1 {
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+    text-align: start;
+    gap: 10px;
+    align-items: start;
+    align-content: center;
+}
+
+.playbtn {
+    color: red;
+}
+
+.footer-img {
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.foot-img {
+
+    height: 35px;
+    width: 60px;
+
+}
+
+.foot-part {
+    background-color: #262B32;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: nowrap;
+    font-size: 18px;
+    padding: 20px;
 
 }
