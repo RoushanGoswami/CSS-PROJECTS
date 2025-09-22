@@ -1,0 +1,22 @@
+@media(max-width:1220px){
+
+.header {
+    background-color: white;
+    justify-content: space-around;
+    display: none;
+    /* height: 50px; */
+    align-items: center;
+    z-index: 1;
+    height: auto;
+    width: 100%;
+    position: fixed;
+    box-sizing: border-box;
+
+
+}
+
+.h-right{
+    display: none;
+}
+
+}
