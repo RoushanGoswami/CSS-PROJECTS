@@ -1,10 +1,13 @@
-@media (max-width: 1220px) {
+/* media- query under 1200px */
+@media (max-width: 1200px) {
   .html {
+    font-size: 18px;
   }
 
   .header {
+    padding: 50px;
     background-color: white;
-    justify-content: space-around;
+    justify-content: space-between;
     display: flex;
     align-items: center;
     z-index: 1;
@@ -12,18 +15,17 @@
     width: 100%;
     position: fixed;
     box-sizing: border-box;
-    font-size: 1.35rem;
+    font-size: 1.7rem;
   }
   .h-left img {
-    height: 46.58px;
-    width: 200px;
+    height: 60.58px;
+    width: 250px;
   }
 
   .sec-2 {
     display: flex;
     justify-content: center;
     align-items: center;
-
     background-color: #01395a;
   }
   .container {
@@ -45,12 +47,391 @@
     text-align: center;
     align-items: center;
     color: white;
+    margin: 20px;
+    font-size: 1.7em;
+  }
+
+  .boxes {
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 550px);
+    grid-template-rows: repeat(3, 350px);
+  }
+
+  .div1 {
+    background-color: white;
+    height: 300px;
+    width: 500px;
+    aspect-ratio: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    box-shadow: 0px 1px 8px black;
+    border-radius: 12px;
+    font-size: 1.8em;
+    text-overflow: wrap;
+  }
+  .sec-3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+    margin-bottom: 50px;
+  }
+  .sec-4 {
+    height: 100%;
+    width: 100%;
+    background-color: white;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+  }
+  .mans {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 45px;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    padding-left: 150px;
+    padding-right: 150px;
+    margin-bottom: 550px;
+  }
+
+  .man-a {
+    height: 600px;
+    width: 505px;
+    background-image: url("ASSETS/IMG/man1.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    background-attachment: scroll;
+    position: relative;
+  }
+
+  .man-b {
+    height: 570px;
+    width: 505px;
+    background-image: url("ASSETS/IMG/man2.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    background-attachment: scroll;
+    position: relative;
+  }
+
+  .man-c {
+    height: 570px;
+    width: 505px;
+    background-image: url("ASSETS/IMG/man3.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    background-attachment: scroll;
+    position: relative;
+  }
+
+  .man-d {
+    height: 600px;
+    width: 505px;
+    background-image: url("ASSETS/IMG/man4.jfif");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    background-attachment: scroll;
+    position: relative;
+  }
+
+  .content {
+    color: white;
+    margin-top: 50px;
+    height: 250px;
+    width: 505px;
+    position: absolute;
+    top: 275px;
+    /* padding: 5px; */
+    background: linear-gradient(to bottom, rgb(16, 65, 94, 0.5));
+    text-align: center;
+    align-content: end;
+    font-size: 1.8rem;
   }
 }
 
 /* media- query under 991px */
 @media (max-width: 991px) {
+  .header-icons {
+    display: inline;
+  }
+  .h-right {
+    display: none;
+  }
+  .h-left img {
+    height: 100.58px;
+    width: 300px;
+  }
+  .header {
+    background-color: white;
+    justify-content: space-around;
+    display: flex;
+    align-items: center;
+    z-index: 1;
+    height: 100px;
+    width: 100%;
+    position: fixed;
+    box-sizing: border-box;
+    font-size: 1.35rem;
+  }
 
+  .sec-4 {
+    height: 100%;
+    width: 100%;
+    background-color: white;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+  }
+  .mans {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 45px;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    padding-left: 150px;
+    padding-right: 150px;
+    margin-bottom: 550px;
+  }
 
-  
+  .man-a {
+    height: 800px;
+    width: 730px;
+    background-image: url("ASSETS/IMG/man1.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    background-attachment: scroll;
+    position: relative;
+  }
+
+  .man-b {
+    height: 800px;
+    width: 730px;
+    background-image: url("ASSETS/IMG/man2.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    background-attachment: scroll;
+    position: relative;
+  }
+
+  .man-c {
+    height: 800px;
+    width: 760px;
+    background-image: url("ASSETS/IMG/man3.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    background-attachment: scroll;
+    position: relative;
+  }
+
+  .man-d {
+    height: 800px;
+    width: 730px;
+    background-image: url("ASSETS/IMG/man4.jfif");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    background-attachment: scroll;
+    position: relative;
+  }
+
+  .content {
+    color: white;
+    margin-top: 50px;
+    height: 400px;
+    width: 730px;
+    position: absolute;
+    top: 350px;
+    /* padding: 5px; */
+    background: linear-gradient(to bottom, rgb(16, 65, 94, 0.5));
+    text-align: center;
+    align-content: end;
+    font-size: 2.4rem;
+  }
+}
+/* MQ - UNDER 767 px  */
+
+@media (max-width: 767px) {
+  .sec-4 {
+    height: 100%;
+    width: 100%;
+    background-color: white;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+  .mans {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    gap: 45px;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    padding-left: 150px;
+    padding-right: 150px;
+    margin-bottom: 550px;
+  }
+
+  .man-a {
+    height: 1300px;
+    width: 1600px;
+    background-image: url("ASSETS/IMG/man1.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    background-attachment: scroll;
+    position: relative;
+  }
+
+  .man-b {
+    height: 1300px;
+    width: 1600px;
+    background-image: url("ASSETS/IMG/man2.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    background-attachment: scroll;
+    position: relative;
+  }
+
+  .man-c {
+    height: 1300px;
+    width: 1600px;
+    background-image: url("ASSETS/IMG/man3.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    background-attachment: scroll;
+    position: relative;
+  }
+
+  .man-d {
+    height: 1300px;
+    width: 1600px;
+    background-image: url("ASSETS/IMG/man4.jfif");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    background-attachment: scroll;
+    position: relative;
+  }
+
+  .content {
+    color: white;
+    margin-top: 50px;
+    height: 650px;
+    width: 1030px;
+    position: absolute;
+    top: 505px;
+    /* padding: 5px; */
+    background: linear-gradient(to bottom, rgb(16, 65, 94, 0.5));
+    text-align: center;
+    align-content: end;
+    font-size: 4rem;
+  }
+  .header {
+    padding: 50px;
+    background-color: white;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    z-index: 1;
+    height: 100px;
+    width: 100%;
+    position: fixed;
+    box-sizing: border-box;
+    font-size: 1.7rem;
+  }
+  .h-left img {
+    height: 60.58px;
+    width: 250px;
+  }
+
+  .sec-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #01395a;
+  }
+  .container {
+    background-color: #01395a;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding: 0 150px;
+    align-items: center;
+    text-align: center;
+  }
+
+  .a1 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+    align-items: center;
+    color: white;
+    margin: 20px;
+    font-size: 1.7em;
+  }
+
+  .boxes {
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 700px);
+    grid-template-rows: repeat(6, 400px);
+  }
+
+  .div1 {
+    background-color: white;
+    height: 350px;
+    width: 650px;
+    aspect-ratio: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    box-shadow: 0px 1px 8px black;
+    border-radius: 12px;
+    font-size: 2.8em;
+    text-overflow: wrap;
+  }
+  .sec-3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+    margin-bottom: 50px;
+  }
+  .sec-3 .sec3-h {
+    font-size: 80px;
+  }
 }
